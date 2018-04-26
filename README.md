@@ -19,9 +19,9 @@ Requesting facts with ansible:<br/>
 
 $ ansible server01.example.com -m setup -a "filter=facter_dsa_status"<br/>
 server01.example.com | SUCCESS => {<br/>
-    "ansible_facts": {<br/>
-        "facter_dsa_status": {<br/>
-            "Component.AM.cap.Qrestore": "true",<br/>
+<BLOCKQUOTE>    "ansible_facts": {<br/>
+<BLOCKQUOTE>        "facter_dsa_status": {<br/>
+<BLOCKQUOTE>            "Component.AM.cap.Qrestore": "true",<br/>
             "Component.AM.cap.realtime": "true",<br/>
             "Component.AM.cap.spyware": "false",<br/>
             "Component.AM.configurations": "5",<br/>
@@ -54,8 +54,8 @@ server01.example.com | SUCCESS => {<br/>
             "Component.LI.mode": "on",<br/>
             "Component.LI.rules": "4",<br/>
             "Component.WRS.mode": "on"<br/>
-        }<br/>
-    },<br/>
-    "changed": false<br/>
+</BLOCKQUOTE>        }<br/>
+</BLOCKQUOTE>    },<br/>
+</BLOCKQUOTE>    "changed": false<br/>
 }
 
