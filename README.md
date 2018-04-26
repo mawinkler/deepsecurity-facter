@@ -12,6 +12,7 @@ Clone repo to your puppet environment with the deepsecurityagent module.
 ## Usage
 Creates two different types of external facts:<br/>
 dsa_status - hashmap with agent component info
+
 dsa_<component> - one external fact for each component info
 
 #sample output
