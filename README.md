@@ -14,7 +14,7 @@ $ git clone https://github.com/deep-security/puppet.git<br/>
 $ mv puppet deepsecurityagent<br/>
 $ mkdir -p deepsecurityagent/lib/facter<br/>
 $ git clone https://github.com/mawinkler/deepsecurity-facter-puppet.git<br/>
-$ cp deepsecurity-facter-puppet/*.rb deepsecurityagent/lib/facter<br/>
+$ cp deepsecurity-facter-puppet/facter/*.rb deepsecurityagent/lib/facter<br/>
    
 ## Usage
 Creates two different types of external facts:<br/>
