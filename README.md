@@ -1,4 +1,4 @@
-# deepsecurity-facter
+# deepsecurity-facter-puppet
 Get Deep Security Agent info by facts for Puppet
 
 Deep Security Agent Facter scripts
